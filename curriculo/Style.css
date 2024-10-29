@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content:baseline;
+}
+
+.resto{
+    
+
+
+    
+}
+
+.foto{
+    
+    margin-left: 0%;
+    
+}
+
+.formacao{
+    margin-top: 20%;
+}
+
+
+
+@media (max-width: 1000px) {
+    .tudo {
+        background-color: pink;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 820px) {
+    .tudo {
+        background-color: rgb(6, 29, 0);
+        justify-content: flex-start;
+        
+    }
+
+    .inicio{
+        color: aliceblue;
+    }
+
+}
+
+@media (max-width: 412px) {
+    .tudo {
+        background-color: rgb(38, 0, 255);
+        justify-content: flex-start;
+    }
+    .resto{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .formacao{
+        margin-left: 5%;
+    }
+
+    .experiencias{
+        margin-left: 5%;
+    }
+
+    .inicio{
+        color: aliceblue;
+        justify-items: center;
+        margin-top: 5% ;
+        justify-content: center;
+    }
+
+    .foto{
+        justify-content: center;
+    }
+}
+
